@@ -1,0 +1,13 @@
+.container{
+    border-bottom: 1px solid #d5dddf;
+    width: 100%;
+}
+.wrapper{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

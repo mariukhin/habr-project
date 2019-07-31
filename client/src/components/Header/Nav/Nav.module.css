@@ -1,0 +1,22 @@
+.navList {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content:space-between;
+    width: 55%;
+    list-style: none;
+}
+.navListItem {
+    padding: 0;
+    margin: 0;
+    flex-basis: 30px;
+}
+.link {
+    color: #888686;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+}
+.link:hover {
+    color: rgb(69, 112, 206);
+}

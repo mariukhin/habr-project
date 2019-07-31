@@ -1,0 +1,33 @@
+.container{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnSearch, .btnLanguage, .btnExit, .btnRegistration{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.svgIcon:hover {
+    fill: rgb(69, 112, 206);
+}
+.btnExit, .btnRegistration{
+    border: 1px solid #888686;
+    padding: 8px 13px;
+    border-radius: 2px;
+    color: #888686;
+    font-size: 14px;
+    line-height: 14px;
+}
+.btnRegistration{
+    background-color: rgb(69, 112, 206);
+    color:#fff
+}
+.btnExit:hover{
+    border-color: rgb(69, 112, 206);
+    color: rgb(69, 112, 206);
+}
+.btnRegistration:hover{
+    background-color: rgb(32, 54, 100);
+}
