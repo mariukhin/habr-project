@@ -1,0 +1,83 @@
+.container{
+    width: 100%;
+}
+.wrapper{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.mainFlow{
+    width: 70%;
+}
+.filterBlock{
+    display: flex;
+    flex-direction: column;
+}
+.filterBlock_titleBlock{
+    padding-top: 20px;
+    display: flex;
+    border-bottom: 1px solid #d5dddf;
+    margin-bottom: 15px;
+}
+.titleBlock_titleBtn{
+    position: relative;
+    background-color: transparent;
+    border: 0;
+    outline-color: transparent;
+    cursor: pointer;
+    margin-right: 50px;
+    text-transform: uppercase;
+    color: #555454;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(69, 112, 206);/*убирать если active*/
+    border-bottom: 2px solid rgb(69, 112, 206);/*убирать если active*/
+    padding-bottom: 15px;
+}
+.titleBlock_titleBtn_counter{
+    position: absolute;
+    display: block;
+    bottom: 35px;
+    left: 95px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #5d9022;
+    font-weight: 600;
+}
+.titleBlock_titleBtn--active{
+    color: rgb(69, 112, 206);
+    border-bottom: 2px solid rgb(69, 112, 206);
+}
+.filterBlock_timeBlock{
+
+}
+.filterBlock_timeBlock_list{
+    display: flex;
+    list-style: none;
+    border: 1px solid #d5dddf;
+    border-radius: 3px;
+    width: 267px;
+}
+.listItem_btn{
+    padding: 0;
+    padding: 12px 14px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    color: #555454;
+    font-size: 14px;
+    line-height: 14px;
+}
+.filterBlock_timeBlock_listItem:first-child > .listItem_btn{/* убрать когда сделаю логику*/
+    border: 2px solid rgb(69, 112, 206);
+    border-radius: 3px;
+}
+.listItem_btn--active{
+    border: 2px solid rgb(69, 112, 206);
+    border-radius: 2px;
+}
+.asideFlow{
+    width: 28%;
+    margin-top: 20px;
+}
