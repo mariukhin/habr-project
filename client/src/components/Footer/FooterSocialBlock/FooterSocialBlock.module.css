@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    background-color: #edeeef;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.copyYear{
+    font-size: 15px;
+    line-height: 15px;
+}
+.tmLink{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    color: rgb(69, 112, 206);
+}
+.tmLink:hover{
+    color: rgb(32, 54, 100);
+}
+.linkContainer{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.globusIcon{
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.link{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    color: rgb(69, 112, 206);
+}
+.link:first-child{
+    vertical-align: middle;
+    line-height: 24px;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+}
+.twitter{
+    background-color: #40aeef;
+    border: 1px solid #40aeef;
+    border-radius: 3px;
+}
+.facebook{
+    background-color: #3a5a9a;
+    border: 1px solid #3a5a9a;
+    border-radius: 3px;
+}
+.vk{
+    background-color: #4a739a;
+    border: 1px solid #4a739a;
+    border-radius: 3px;
+}
+.telegram{
+    background-color: #009fda;
+    border: 1px solid #009fda;
+    border-radius: 3px;
+}
+.youtube{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+.youtube{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+.zen{
+    border: 1px solid #fff;
+    border-radius: 3px;
+}

@@ -1,0 +1,17 @@
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 15px;
+}
+.mistakeText{
+    font-size: 16px;
+    line-height: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}

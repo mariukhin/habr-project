@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Header from '../../components/Header/Header';
 
 export default class StartPage extends Component {
   render() {
-    return <Header />;
+    return (
+      <div>
+        <ul>
+          <li>edffe</li>
+          <li>fefewf</li>
+          <li>dfewfe</li>
+        </ul>
+      </div>
+    );
   }
 }

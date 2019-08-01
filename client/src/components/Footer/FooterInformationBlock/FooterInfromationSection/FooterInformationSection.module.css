@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    flex-basis: 180px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26px;
+}
+.sectionTitle{
+    font-size: 17px;
+    line-height: 17px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.span{
+    width: 100%;
+    border-bottom: 1px solid #d5dddf;
+    margin-bottom: 10px;
+}
+.sectionLink{
+    text-decoration: none;
+    margin-bottom: 12px;
+    color: rgb(69, 112, 206);
+}
+.sectionLink:hover{
+    color: rgb(32, 54, 100);
+}
+.sectionLink:last-child{
+    margin-bottom: 0;
+}
