@@ -1,0 +1,44 @@
+.container{
+    margin-top: 20px;
+}
+.profileInfoBlock{
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    margin-bottom: 10px;
+}
+.profileNameLink{
+    display: flex;
+    text-decoration: none;
+    color: rgb(69, 112, 206);
+}
+.profileImage{
+    display: block;
+    margin-right: 10px;
+    height: 22px;
+    width: 22px;
+}
+.publicationDate{
+    color: #555454;
+}
+.postTitle{
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 26px;
+    color: rgb(69, 112, 206);
+}
+.postTitle:hover{
+    color: rgb(61, 90, 153);
+}
+.linkBlock{
+    margin-top: 15px;
+}
+.link{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: #555454;
+}
+.link:hover{
+    color: rgb(61, 90, 153);
+}
