@@ -1,5 +1,6 @@
 .container{
     margin-top: 20px;
+    margin-bottom: 25px;
 }
 .profileInfoBlock{
     display: flex;
@@ -11,6 +12,9 @@
     display: flex;
     text-decoration: none;
     color: rgb(69, 112, 206);
+}
+.profileNameLink:hover{
+    color: rgb(61, 90, 153);
 }
 .profileImage{
     display: block;

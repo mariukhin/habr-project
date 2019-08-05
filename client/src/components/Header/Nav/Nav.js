@@ -5,7 +5,7 @@ import styles from './Nav.module.css';
 const Nav = () => (
   <ul className={styles.navList}>
     <li className={styles.navListItem}>
-      <NavLink className={styles.link} to="/publications" exact>
+      <NavLink className={styles.link} to="/" exact>
         Публикации
       </NavLink>
     </li>

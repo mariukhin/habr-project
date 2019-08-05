@@ -7,7 +7,7 @@ import FooterSocialBlock from './FooterSocialBlock/FooterSocialBlock';
 const linkArr = [
   { path: '/exit', name: 'Войти' },
   { path: '/registration', name: 'Регистрация' },
-  { path: '/publications', name: 'Публикации' },
+  { path: '/', name: 'Публикации' },
   { path: '/news', name: 'Новости' },
   { path: '/hubs', name: 'Хабы' },
   { path: '/companies', name: 'Компании' },

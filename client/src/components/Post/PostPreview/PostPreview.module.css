@@ -1,0 +1,13 @@
+.container{
+    padding-bottom: 20px;
+}
+.previewImage{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.previewText{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
