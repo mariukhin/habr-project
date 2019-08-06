@@ -5,18 +5,10 @@ import AsideFlowBlock from '../../components/AsideBlocks/AsideFlowBlock/AsideFlo
 import TopicSelector from '../../components/TopicSelector/TopicSelector';
 import PostPreview from '../../components/Post/PostPreview/PostPreview';
 import pageHoc from '../../hoc/pageHoc/pageHoc';
+import { fetchTopics } from '../../services/server-api';
 
 // будет приходить из бека в стор под ключ topics:[]
-const topics = [
-  { path: '/all', name: 'Все потоки', count: 54 },
-  { path: '/flows/develop', name: 'Разработка', count: 23 },
-  { path: '/flows/admin', name: 'Администрирование', count: 21 },
-  { path: '/flows/design', name: 'Дизайн', count: 11 },
-  { path: '/flows/management', name: 'Менеджмент', count: 11 },
-  { path: '/flows/marketing', name: 'Маркетинг', count: 32 },
-  { path: '/flows/geektimes', name: 'Гиктаймс', count: 21 },
-  { path: '/flows/misc', name: 'Разное', count: 14 },
-];
+
 const post = {
   postId: '232132',
   profileImage: 'https://placeimg.com/640/480/any',
@@ -52,10 +44,15 @@ const post = {
 class StartPage extends Component {
   state = {
     currentTopic: 'Все потоки',
+    topics: [],
   };
 
+  componentDidMount() {
+    fetchTopics().then(result => this.setState({ topics: result }));
+  }
+
   render() {
-    const { currentTopic } = this.state;
+    const { currentTopic, topics } = this.state;
     return (
       <Fragment>
         <div className={style.mainFlow}>
